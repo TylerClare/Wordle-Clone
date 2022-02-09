@@ -1,0 +1,15 @@
+.nightmode {
+    background-color: #121213;
+}
+
+.nightmode .title {
+    color: #d7dadc;
+}
+
+#game > header {
+    border-bottom-color: #3a3a3c;
+}
+
+.nightmode .menu-icon {
+    color: #565758;
+}

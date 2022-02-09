@@ -1,0 +1,53 @@
+:root {
+    font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.title {
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 3.2px;
+    font-size: 36px;
+    display: block;
+    position: absolute;
+    right: 0;
+    left: 0;
+    text-align: center;
+    pointer-events: none;
+}
+
+#game {
+    max-width: 500px;
+    width: 500px;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+}
+
+.menu {
+    display: block;
+}
+
+#game > header {
+    align-items: center;
+    display: flex;
+    border-bottom: 1px solid;
+    justify-content: space-between;
+    height: 50px;
+}
+
+button.icon {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0 4px;
+}
+
+.menu-icon {
+    height: 24px;
+    width: 24px;
+    font-size: 20px;
+}
